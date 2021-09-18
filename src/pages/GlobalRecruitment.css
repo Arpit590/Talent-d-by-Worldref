@@ -1,0 +1,1456 @@
+.global{
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+/* The Global Box Container Starts */
+.global__BoxContainer{
+    background-image: url("./services1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.global__Box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    background-color: #fff;
+    padding: 40px;
+    gap: 20px;
+}
+
+.global__BoxHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.global__BoxHeading>h1{
+    font-size: 55px;
+    text-align: left;
+}
+
+.global__BoxContent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.global__BoxContent>p{
+    font-size: 25px;
+}
+
+.global__BoxButton{
+    align-self: flex-start;
+    padding: 8px 20px;
+    width: 30%;
+    background-color: orangered;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-out;
+    font-size: 20px;
+}
+
+.global__BoxButton:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+/* The Global Box Section Ends */
+
+/* The Global Heading Section Starts */
+
+.global__HeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.global__Heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__Heading>h1{
+    font-size: 55px;
+}
+
+
+.global__Content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.global__Content>p{
+    font-size: 22px;
+}
+
+/* The Global Heading Section Ends */
+
+/* The Global Quote Section Starts */
+
+.global__quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 70px;
+
+}
+.global__quoteContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+}
+
+.global__quoteIcon{
+    background-color: orangered;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+
+.global__quoteContent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: gray;
+}
+
+.global__quoteContent>p{
+    font-size: 22px;
+}
+
+.global__quoteIcon .MuiSvgIcon-root{
+    font-size: 40px;
+    color: #fff !important;
+}
+
+/* The Global Quote Section Ends */
+
+/* The Global Help Section Starts */
+
+.global__help{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.global__helpContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: wheat;
+}
+
+.global__helpContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 50px;
+}
+
+.global__helpHeading{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__helpHeading>h1{
+    font-size: 40px;
+}
+
+.global__helpContentContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.global__helpContent1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.global__helpContent1Heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__helpContent1Heading>h1{
+    font-size: 35px;
+}
+
+.global__helpContent1Para{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__helpContent1Para>p{
+    font-size: 18px;
+}
+
+.global__helpButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.global__helpButton{
+    transition: all 0.4s ease-out;
+}
+
+.global__helpButton:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+.global__helpContent1>a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.global__helpContent2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.global__helpImage>img{
+    object-fit: contain;
+    height: 650px;
+}
+
+ /* The Global Help Section Ends */
+
+@media screen and (max-width: 1300px) {
+    .global__Box{
+        left: 40%;
+    }
+
+    .global__helpImage>img{
+        height: 500px;
+    }
+
+    .global__helpContent{
+        padding: 20px;
+    }
+
+    .global__helpHeading>h1{
+        font-size: 30px;
+    }
+
+    .global__helpContent1Heading>h1{
+        font-size: 28px;
+    }
+
+    .global__helpContent1Para>p{
+        font-size: 15px;
+    }
+
+    .global__helpButton{
+        font-size: 15px !important;
+    }
+
+    .global__helpButton .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+}
+
+/* The Global Help Section Ends */
+
+/* The Talent Global Section Starts */
+
+.talent__globalBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.talent__globalBoxContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.talent__globalBoxHeadingContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.talent__globalBoxHeadingContainer>h1{
+    font-size: 50px;
+}
+.talent__globalBoxPara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+}
+
+.talent__globalBoxPara>p{
+    font-size: 23px;
+}
+
+.talent__globalBoxChart{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.talent__globalBoxChartHeadingContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+
+.talent__globalBoxChartHeading{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.talent__globalBoxChartHeading .MuiSvgIcon-root{
+    color: orangered;
+    font-size: 40px;
+}
+
+.talent__globalh4{
+    display: flex;
+    flex-direction: column;
+}
+
+.talent__globalFlowChart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.talent__globalFlowChartContainer{
+    display: flex;
+    align-items: center;
+}
+
+.talent__globalFlowChartContent{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 16px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    max-height: 100px;
+    min-height: 100px;
+}
+
+.talent__globalBoxContainer>img{
+    object-fit: contain;
+    height: 300px;
+}
+
+/* The Talent Global Section Ends */
+
+/* The Mobility Section Starts */
+
+.mobility{
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 40px;
+    background-color: black;
+}
+
+.mobility>img{
+    object-fit: contain;
+    height: 500px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.mobility__content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mobility__contentHeading{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.mobility__contentHeading>h1{
+    font-size: 55px;
+}
+
+.mobility__contentPara{
+    display: flex;
+    flex-direction: column;
+}
+
+.mobility__contentPara>p{
+    font-size: 25px;
+}
+
+.mobility__contentInfo{
+    display: flex;
+    flex-direction: column;
+    color: orange;
+}
+
+.mobility__contentInfo>p{
+    font-size: 13px;
+}
+
+/* The Mobility Section Ends */
+
+/* The International Section Starts */
+
+.international{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.international__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-direction: column;
+}
+
+.international__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.international__heading>h1{
+    font-size: 50px;
+}
+
+.international__card{
+    display: flex;
+    gap: 50px;
+    background-color: whitesmoke;
+}
+
+.international__cardContent{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    padding-left: 100px;
+}
+
+.international__cardHeading{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.international__cardHeading>h1{
+    font-size: 40px;
+}
+
+.international__cardPara{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.international__cardPara>p{
+    font-size: 20px;
+    color: gray;
+}
+
+.international__cardContent>a{
+    text-decoration: none;
+    color: orangered;
+}
+
+.international__cardButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.4s ease-out;
+}
+
+.international__cardButton:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.international__cardImage>img{
+    object-fit: contain;
+    height: 450px;
+}
+
+/* The International Section Ends */
+
+/* The Profile Section Starts */
+
+.profile__container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 100px;
+    padding: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(6, 48, 48, 1);
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.avatar{
+    height: 100px !important;
+    width: 100px !important;
+}
+
+.profile__content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.profile__content .MuiSvgIcon-root{
+    color: white;
+    font-size: 40px !important;
+}
+
+.profile__contentPara{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.profile__contentPara>p{
+    font-size: 20px;
+}
+
+.profile__contentInfo{
+    display: flex;
+    flex-direction: column;
+    color: orange;
+}
+
+/* The Profile Section Ends */
+
+/* The Helping Cards Section Starts */
+
+.helping__cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 100px;
+    gap: 60px;
+}
+
+.helping__heading>h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.helping__cardContainer{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(1, auto);
+    grid-column-gap: 40px;
+}
+
+@media screen and (max-width: 1300px) {
+    .global__Box{
+        left: 20%;
+        top: 20%;
+    }
+
+    .global__BoxContainer{
+        height: 80vh;
+    }
+
+    .talent__globalFlowChartContent{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .talent__globalBoxChartHeadingContainer{
+        gap: 60px;
+    }
+
+    .mobility__contentPara>p{
+        font-size: 17px;
+    }
+
+    .mobility__contentHeading>h1{
+        font-size: 40px;
+    }
+
+    .mobility__contentInfo>p{
+        font-size: 11px;
+    }
+
+    .international__cardImage>img{
+        height: 400px;
+    }
+
+    .international__cardPara>p{
+        font-size: 18px;
+    }
+
+    .international__cardHeading>h1{
+        font-size: 30px;
+    }
+
+    .international__cardContent{
+        padding-left: 40px;
+    }
+
+    .international__card{
+        gap: 10px;
+    }
+
+    .profile__container{
+        padding: 50px;
+    }
+
+    .profile__contentPara>p{
+        font-size: 17px;
+    }
+
+    .profile__contentInfo>p{
+        font-size: 14px;
+    }
+
+    .helping__cardContainer{
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .mobility>img{
+        height: 350px;
+    }
+
+    .international__cardImage>img{
+        height: 350px;
+    }
+
+    .international__cardPara>p{
+        font-size: 15px;
+    }
+
+    .international__cardButton>p{
+        font-size: 15px !important;
+    }
+
+    .international__cardButton .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .talent__globalFlowChartContent{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .talent__globalBoxChartHeadingContainer{
+        gap: 30px;
+    }
+
+    .talent__globalh4>h4{
+        font-size: 15px;
+    }
+
+    .talent__globalFlowChartContent{
+        font-size: 14px;
+    }
+
+    .international__card{
+        flex-direction: column-reverse;
+    }
+
+    .international__heading>h1{
+        font-size: 40px;
+    }
+
+    .international__cardImage>img{
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .international__cardContent{
+        align-items: center;
+    }
+
+    .international__cardHeading{
+        align-items: center;
+    }
+
+    .international__cardPara>p{
+        font-size: 20px;
+    }
+
+    .international__cardHeading>h1{
+        font-size: 35px;
+    }
+
+    .international__cardPara{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .global__helpImage>img{
+        height: 400px;
+    }
+
+    .global__helpContent{
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .global__helpHeading>h1{
+        font-size: 25px;
+    }
+
+    .global__helpContent1Heading>h1{
+        font-size: 20px;
+    }
+
+    .global__helpContent1Para>p{
+        font-size: 13px;
+    }
+
+    .global__helpButton{
+        font-size: 13px !important;
+    }
+
+    .global__helpButton .MuiSvgIcon-root{
+        font-size: 18px !important;
+    }
+
+    .profile__container{
+        padding: 30px;
+    }
+
+    .profile__content .MuiSvgIcon-root{
+        font-size: 25px !important;
+    }
+
+    .profile__contentPara>p{
+        font-size: 14px;
+    }
+
+    .profile__container{
+        gap: 30px;
+    }
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .global__Box{
+        left: 25%;
+        top: 25%;
+        align-items: center;
+    }
+
+    .global__BoxHeading{
+        align-items: center;
+    }
+
+    .global__BoxHeading>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .global__BoxContent>p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .global__BoxButton{
+        font-size: 15px;
+        width: 100%;
+    }
+
+    .global__Heading>h1{
+        font-size: 40px;
+    }
+
+    .global__Content>p{
+        font-size: 18px;
+    }
+
+    .global__quoteContent>p{
+        font-size: 18px;
+    }
+
+    .global__quoteContainer>p{
+        font-size: 13px;
+    }
+
+    .global__quoteContainer>img{
+        object-fit: contain;
+        height: 40px;
+    }
+
+    .global__helpContainer{
+        flex-direction: column-reverse;
+    }
+
+    .global__helpImage>img{
+        height: 500px;
+    }
+
+
+    .global__helpContainer{
+        align-items: center;
+        text-align: center;
+    }
+
+    .global__helpButton{
+        align-self: center;
+    }
+
+    .talent__globalBoxHeadingContainer>h1{
+        font-size: 40px;
+    }
+
+    .talent__globalBoxPara>p{
+        font-size: 18px;
+    }
+
+    .talent__globalh4>h4{
+        font-size: 12px;
+    }
+
+    .talent__globalBoxChartHeading{
+        gap: 3px;
+    }
+    .talent__globalBoxChartHeading .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+
+    .talent__globalFlowChartContent{
+        font-size: 11px;
+        align-items: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+    }
+
+    .talent__globalBoxContainer>img{
+        height: 200px;
+    }
+
+    .mobility>img{
+        height: 300px;
+    }
+
+    .mobility__contentHeading>h1{
+        font-size: 25px;
+    }
+
+    .mobility__contentPara{
+        margin-top: -20px;
+    }
+
+    .mobility__contentInfo>p{
+        font-size: 9px;
+    }
+
+    .mobility__contentPara>p{
+        font-size: 14px;
+    }
+
+    .profile__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .profile__content{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .profile{
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile__contentPara>p{
+        font-size: 20px;
+    }
+
+    .profile__contentInfo>p{
+        font-size: 18px;
+    }
+
+    .helping__heading>h1{
+        font-size: 30px;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+   .mobility{
+       flex-direction: column;
+       padding-bottom: 20px;
+   }
+
+   .mobility>img{
+       height: 400px;
+       padding-top: 40px;
+   }
+
+   .mobility__contentHeading{
+       flex-direction: row;
+       gap: 5px;
+       align-items: center;
+   }
+
+   .mobility__contentPara{
+       align-items: center;
+   }
+
+   .mobility__contentPara>p{
+       font-size: 15px;
+   }
+
+   .mobility__contentInfo{
+       align-items: center;
+   }
+
+   .mobility__contentInfo>p{
+       font-size: 10px;
+   }
+
+   .mobility__content{
+       align-items: center;
+   }
+}
+
+@media screen and (max-width: 700px) {
+    .global__Box{
+        left: 15%;
+        top: 20%;
+    }
+
+
+    .global__BoxHeading>h1{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .global__BoxContent>p{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .global__BoxContainer{
+        height: 70vh;
+    }
+
+    .talent__globalBoxHeadingContainer>h1{
+        font-size: 30px;
+    }
+
+    .talent__globalBoxPara>p{
+        font-size: 15px;
+    }
+
+    .talent__globalh4>h4{
+        font-size: 12px;
+    }
+
+    .talent__globalBoxChartHeading{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .talent__globalBoxChartHeading .MuiSvgIcon-root{
+        font-size: 18px !important;
+    }
+
+    .talent__globalFlowChartContent{
+        font-size: 9px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+
+    .talent__globalBoxContainer>img{
+        height: 150px;
+    }
+
+    .international__heading>h1{
+        font-size: 30px;
+    }
+
+    .international__cardImage>img{
+        height: 250px;
+    }
+
+    .international__cardHeading>h1{
+        font-size: 25px;
+    }
+
+    .international__cardPara>p{
+        font-size: 18px;
+    }
+
+    .helping__cardContainer{
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+
+    }
+
+    .helping__heading>h1{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .global__Box{
+        left: 15%;
+        top: 20%;
+    }
+
+    .global__BoxHeading>h1{
+        font-size: 30px;
+    }
+
+    .global__BoxContent>p{
+        font-size: 14px;
+    }
+
+    .global__BoxButton{
+        font-size: 13px;
+    }
+
+    .global__Heading>h1{
+        font-size: 30px;
+    }
+
+    .global__Content>p{
+        font-size: 15px;
+    }
+
+    .global__quoteContent>p{
+        font-size: 13px;
+    }
+
+    .global__quoteContainer>p{
+        font-size: 11px;
+    }
+
+    .global__quoteContainer>img{
+        object-fit: contain;
+        height: 30px;
+    }
+    .global__quoteIcon .MuiSvgIcon-root{
+        font-size: 30px;
+    }
+
+    .global__helpImage>img{
+        height: 400px;
+    }
+
+    .talent__globalBoxChart{
+        flex-direction: row;
+    }
+    .talent__globalBoxChartHeadingContainer{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .talent__globalBoxChartHeading{
+        flex-direction: row;
+    }
+
+    .talent__globalFlowChartContainer{
+        flex-direction: column;
+    }
+
+    .talent__globalFlowChartContent{
+        border: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 14px;
+    }
+    .talent__globalFlowChartContainer{
+        gap: 10px;
+    }
+
+    .talent__globalBoxHeadingContainer>h1{
+        font-size: 20px;
+    }
+
+    .talent__globalBoxPara>p{
+        font-size: 12px;
+    }
+
+    .helping__heading>h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .global__Box{
+        left: 15%;
+        top: 20%;
+        padding: 20px;
+    }
+
+    .global__BoxContainer{
+        height: 50vh;
+    }
+
+    .global__BoxHeading>h1{
+        font-size: 20px;
+    }
+
+    .global__BoxContent>p{
+        font-size: 12px;
+    }
+
+    .global__BoxButton{
+        font-size: 11px;
+    }
+    .global__Heading>h1{
+        font-size: 20px;
+    }
+
+    .global__Content>p{
+        font-size: 13px;
+    }
+
+    .global__quoteContent>p{
+        font-size: 11px;
+    }
+
+    .global__quoteContainer>p{
+        font-size: 10px;
+    }
+
+    .global__quoteContainer>img{
+        object-fit: contain;
+        height: 20px;
+    }
+    .global__quoteIcon .MuiSvgIcon-root{
+        font-size: 20px;
+    }
+
+    .global__helpImage>img{
+        height: 300px;
+    }
+
+    .global__helpContent{
+        padding: 0px;
+    }
+
+    .global__helpHeading{
+        margin-top: 20px;
+    }
+    .global__helpHeading>h1{
+        font-size: 20px;
+    }
+    .global__helpContent1Heading>h1{
+        font-size: 15px;
+    }
+
+    .global__helpContent1Para>p{
+        font-size: 11px;
+    }
+
+    .global__helpButton{
+        font-size: 10px !important;
+        margin-bottom: 20px;
+    }
+
+    .global__helpButton .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+ 
+    .mobility>img{
+        height: 300px;
+        padding-top: 40px;
+    }
+ 
+
+ 
+    .mobility__contentPara>p{
+        font-size: 13px;
+    }
+ 
+    .mobility__contentInfo>p{
+        font-size: 9px;
+    }
+
+    .international__heading>h1{
+        font-size: 20px;
+    }
+
+    .international__cardImage>img{
+        height: 200px;
+    }
+
+    .international__cardHeading>h1{
+        font-size: 20px;
+    }
+
+    .international__cardPara>p{
+        font-size: 14px;
+    }
+
+    .international__cardButton>p{
+        font-size: 14px !important;
+    }
+
+    .international__cardButton .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .global__Box{
+        left: 15%;
+        top: 20%;
+        padding: 12px;
+    }
+
+    .global__BoxHeading>h1{
+        font-size: 18px;
+    }
+
+    .global__BoxContainer{
+        height: 40vh;
+        opacity: 0.8;
+    }
+
+    .global__BoxContent>p{
+        font-size: 10px;
+    }
+
+    .global__BoxButton{
+        font-size: 10px;
+    }
+
+    .global__Heading>h1{
+        font-size: 14px;
+    }
+
+    .global__Content>p{
+        font-size: 10px;
+    }
+
+    .global__quoteContent>p{
+        font-size: 8px;
+    }
+
+    .global__quoteContainer>p{
+        font-size: 7px;
+    }
+
+    .global__quoteContainer>img{
+        object-fit: contain;
+        height: 15px;
+    }
+    .global__quoteIcon .MuiSvgIcon-root{
+        font-size: 20px;
+    }
+
+    .global__helpImage>img{
+        height: 250px;
+    }
+
+    .global__helpContent1Para>p{
+        font-size: 9px;
+    }
+
+    .global__helpHeading>h1{
+        font-size: 16px; 
+    }
+
+    .global__helpContent1Heading>h1{
+        font-size: 13px;
+    }
+
+    .global__helpContent1Heading{
+        margin-bottom: -20px;
+    }
+
+    .talent__globalBoxHeadingContainer>h1{
+        font-size: 15px;
+    }
+
+    .talent__globalBoxPara>p{
+        font-size: 9px;
+    }
+
+    .talent__globalBoxContainer{
+        gap: 20px;
+    }
+
+    .talent__globalh4>h4{
+        font-size: 10px;
+    }
+
+    .talent__globalBoxChartHeading .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+
+    .talent__globalBoxChart{
+        gap: 10px;
+    }
+
+    .talent__globalFlowChartContent{
+        font-size: 10px;
+    }
+
+    .talent__globalBoxContainer>img{
+        height: 100px;
+    }
+
+    .mobility>img{
+        height: 200px;
+    }
+
+    .mobility__contentHeading>h1{
+        font-size: 16px;
+    }
+
+    .mobility__contentPara>p{
+        font-size: 11px;
+    }
+
+    .mobility__contentInfo>p{
+        font-size: 7px;
+    }
+
+    .international__heading>h1{
+        font-size: 18px;
+    }
+
+    .international__cardImage>img{
+        height: 150px;
+    }
+
+    .international__cardHeading>h1{
+        font-size: 15px;
+    }
+
+    .international__cardPara>p{
+        font-size: 10px;
+    }
+
+    .international__cardButton>p{
+        font-size: 12px !important;
+    }
+
+    .international__cardButton .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+
+    .international__cardContent{
+        padding: 30px;
+    }
+
+
+    .profile__contentPara>p{
+        font-size: 14px;
+    }
+
+    .profile__contentInfo>p{
+        font-size: 13px;
+    }
+
+    .avatar{
+        height: 70px !important;
+        width: 70px !important;
+    }
+
+    .profile__container{
+        padding: 10px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+    .global__Heading>h1{
+        font-size: 20px;
+    }
+
+    .global__Content>p{
+        font-size: 8.5px;
+    }
+    .global__Box{
+        left: 5%;
+    }
+
+    .talent__globalBoxPara>p{
+        font-size: 8px;
+    }
+
+    .globalcard__content>p{
+        text-align: center;
+    }
+}

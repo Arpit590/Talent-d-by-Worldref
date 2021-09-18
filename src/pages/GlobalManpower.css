@@ -1,0 +1,1396 @@
+.global__manpower{
+    margin-top: 90px;
+}
+
+/* The Global Manpower Section Starts */
+
+.global__manpowerContainer{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    background-color: rgba(79, 14, 31, 1);
+    justify-content: center;
+}
+
+.global__manpowerContainerLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.global__manpowerText{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__manpowerText{
+    font-size: 40px;
+    color: #fff;
+}
+
+.global__manpowerPara{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__manpowerPara>p{
+    font-size: 20px;
+    color: #fff;
+}
+
+.global__manpowerButton{
+    display: flex;
+}
+
+.Button{
+    padding: 8px 20px;
+    background-color: cadetblue;
+    color: #fff;
+    width: 50%;
+    font-size: 20px;
+    transition: all 0.4s ease-out;
+}
+
+.Button:hover{
+    background-color: #242424;
+    cursor: pointer;
+}
+
+.global__manpowerContainerRight>img{
+    height: 600px;
+    object-fit: contain;
+}
+
+/* The Global Manpower Section Ends */
+
+
+/* The Path Section Starts */
+
+.path{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+.path__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.path__heading>h1{
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+.path__cardContainer{
+    display: flex;
+    gap: 50px;
+}
+
+.path__card{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.path__cardHeadingContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.path__cardHeadingContainer .MuiSvgIcon-root{
+    font-size: 40px !important;
+}
+
+.path__cardHeading>h1{
+    font-size: 25px;
+}
+
+.path__cardContent{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+/* The Path Section Ends */
+
+/* The Construction Section Starts */
+
+.construction{
+    margin-top: 120px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.construction__container{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: whitesmoke;
+    padding: 30px;
+    justify-content: center;
+}
+
+.construction__container>img{
+    height: 400px;
+    object-fit: contain;
+}
+
+.construction__content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.construction__content>h1{
+    font-size: 20px;
+     color: gray;
+}
+
+.construction__container1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.construction__heading1{
+    display: flex;
+    flex-direction: column;
+}
+
+.construction__heading1>h1{
+    font-size: 40px;
+}
+
+.construction__content1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 20px;
+}
+
+.construction__content1>p{
+    font-size: 20px;
+    color: gray;
+}
+.construction__container2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.construction__heading2{
+    display: flex;
+    flex-direction: column;
+}
+
+.construction__heading2>h1{
+    font-size: 40px;
+}
+
+.construction__content2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.construction__lists1{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-left: 20px;
+}
+.construction__list1{
+    display: flex;
+    flex-direction: column;
+}
+
+.construction__list1>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: gray;
+}
+
+.construction__list2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: gray;
+}
+
+.construction__container3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.construction__container3>h1{
+    font-size: 40px;
+}
+
+.construction__lists2{
+    display: flex;
+    gap: 50px;
+    margin-left: 20px;
+}
+
+
+.construction__container4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.construction__container4>h1{
+    font-size: 40px;
+}
+
+.construction__lists3{
+    display: flex;
+    margin-left: 20px;
+    gap: 80px;
+}
+
+/* The Construction Section Ends */
+
+.professional{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.professional__container{
+    background-color: whitesmoke;
+    display: flex;
+    gap: 120px;
+}
+
+
+.professional__container>img{
+    height: 700px;
+}
+
+.professional__content{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    gap: 40px;
+}
+
+.professional__heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.professional__heading>h1{
+    font-size: 40px;
+}
+
+.professional__para{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    color: gray;
+}
+
+.professional__lists{
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-left: 20px;
+}
+
+.professional__list1>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.professional__list2>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.professional__button{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: orangered;
+    color: #fff;
+    width: 40%;
+    justify-content: center;
+    padding: 8px 20px;
+    transition: all 0.5s ease-out;
+    border: 1px solid orangered;
+}
+
+.professional__button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+/* The Professional Section Ends */
+
+.text__containerImage1>img{
+    height: 70px;
+    margin-bottom: 50px;
+}
+
+/* The Unique Section Starts */
+
+.unique{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.unique__container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 100px;
+    background-color: whitesmoke;
+}
+
+.unique__container>img{
+    height: 800px;
+    object-fit: contain;
+}
+
+.unique__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+}
+
+.unique__content>h1{
+    font-size: 20px;
+    color: gray;
+}
+
+.unique__heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.unique__heading>h1{
+    font-size: 40px;
+}
+
+.unique__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.unique__cardsRow1{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.unique__cardsRow2{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.unique__card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.unique__cardHeading{
+    display: flex;
+    flex-direction: column;
+}
+
+.unique__cardHeading>h1{
+    font-size: 25px;
+}
+
+.unique__cardContent{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    gap: 5px;
+}
+
+.unique__cardContent>p{
+    font-size: 20px;
+}
+
+/* The Unique Section Ends */
+
+/* The Shortage Section Starts */
+
+.shortage{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.shortage__container{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.shortage__container>img{
+    height: 600px;
+}
+
+.shortage__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: whitesmoke;
+    padding: 40px;
+    border: 1px solid black;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    position: absolute;
+    right: 58%;
+}
+
+.shortage__box>h1{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shortage__boxContent1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shortage__boxContent1>p{
+    font-size: 20px;
+}
+
+.shortage__boxContent2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shortage__boxContent2>p{
+    font-size: 20px;
+}
+
+.shortage__box>p{
+    font-size: 15px;
+    color: orangered;
+    text-align: center;
+}
+
+/* The Shortage Section Ends */
+
+/* The Intro Section Starts */
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.intro__container{
+    display: flex;
+}
+
+.intro__container>img{
+    height: 450px;
+    max-width: 600px;
+}
+
+.intro__content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: rgba(47,46,46,1);
+    padding: 50px;
+    padding-right: 100px;
+    padding-left: 60px;
+}
+
+.intro__container .MuiSvgIcon-root{
+    color: #fff;
+    font-size: 40px !important;
+}
+
+.intro__contentPara{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-top: -20px;
+}
+
+.intro__contentPara>p{
+    font-size: 25px;
+}
+
+.intro__content>p{
+    font-size: 15px;
+    color: #fff;
+}
+
+/* The Intro Section Ends */
+
+@media screen and (max-width: 1300px) {
+    .global__manpowerContainerRight>img{
+        height: 500px;
+    }
+
+    .global__manpowerText{
+        font-size: 40px;
+    }
+
+    .global__manpowerPara>p{
+        font-size: 18px;
+    }
+
+    .global__manpowerContainer{
+        gap: 50px;
+    }
+
+    .global__manpowerContainerRight>img{
+        height: 400px;
+    }
+
+    .global__manpowerText{
+        font-size: 30px;
+    }
+
+    .global__manpowerPara>p{
+        font-size: 15px;
+    }
+
+    .global__manpowerContainer{
+        gap: 50px;
+    }
+
+    .Button{
+        font-size: 15px;
+        width: 60%;
+    }
+
+    .construction__container>img{
+        height: 300px;
+    }
+
+    .construction__heading1>h1{
+        font-size: 30px;
+    }
+
+    .construction__heading2>h1{
+        font-size: 30px;
+    }
+
+    .construction__container3>h1{
+        font-size: 30px;
+    }
+    .construction__container4>h1{
+        font-size: 30px;
+    }
+
+    .professional__container>img{
+        height: 550px;
+    }
+
+    .professional__heading>h1{
+        font-size: 30px;
+    }
+
+    .professional__content{
+        padding: 20px;
+    }
+
+    .professional__para{
+        font-size: 15px;
+    }
+
+    .professional__list1>ul{
+        font-size: 15px;
+    }
+    
+    .professional__list2>ul{
+        font-size: 15px;
+    }
+
+    .unique__content{
+        padding: 20px;
+    }
+
+    .unique__container>img{
+        height: 600px;
+    }
+
+    .unique__heading>h1{
+        font-size: 30px;
+    }
+    .unique__cardContent>p{
+        font-size: 15px;
+    }
+
+    .shortage__container>img{
+        height: 500px;
+    }
+
+    .shortage__box{
+        padding: 30px;
+        right: 55%;
+    }
+
+    .shortage__box>p{
+        font-size: 13px;
+    }
+    .shortage__box>h1{
+        font-size: 30px;
+    }
+
+    .shortage__boxContent1>p{
+        font-size: 17px;
+    }
+
+    .shortage__boxContent2>p{
+        font-size: 17px;
+    }
+
+    .intro__container>img{
+        height: 300px;
+        max-width: 400px;
+    }
+
+    .intro__content{
+        padding: 40px;
+    }
+
+    .intro__contentPara>p{
+        font-size: 16px;
+    }
+
+    .intro__content>p{
+        font-size: 13px;
+    }
+
+    .intro__container .MuiSvgIcon-root{
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .construction__content1>p{
+        font-size: 16px;
+    }
+
+    .construction__container>img{
+        height: 250px;
+    }
+
+    .professional__container>img{
+        height: 500px;
+    }
+
+    .professional__container{
+        gap: 50px;
+    }
+
+    .professional__heading>h1{
+        font-size: 27px;
+    }
+
+    .professional__content{
+        gap: 20px;
+    }
+
+    .professional__list1>ul{
+        font-size: 13px;
+    }
+
+    .professional__list2>ul{
+        font-size: 13px;
+    }
+
+    .professional__button{
+        padding: 5px 15px;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .professional__button .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+
+    .unique__container>img{
+        height: 500px;
+    }
+
+    .unique__container{
+        gap: 50px;
+    }
+
+    .unique__content>h1{
+        font-size: 18px;
+    }
+
+    .unique__content{
+        gap: 20px;
+    }
+
+    .unique__heading>h1{
+        font-size: 25px;
+    }
+
+    .unique__cardHeading>h1{
+        font-size: 20px;
+    }
+
+    .unique__cardContent>p{
+        font-size: 13px;
+    }
+
+    .shortage__container>img{
+        height: 400px;
+    }
+
+    .shortage__box{
+        padding: 20px;
+        right: 60%;
+    }
+
+    .shortage__box>h1{
+        font-size: 25px;
+    }
+
+    .shortage__boxContent1>p{
+        font-size: 14px;
+    }
+
+    .shortage__boxContent2>p{
+        font-size: 14px;
+    }
+
+    .shortage__box>p{
+        font-size: 12px;
+    }
+
+    .shortage{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .global__manpowerContainerRight>img{
+        height: 400px;
+        width: 100vh;
+        object-fit: fill;
+        flex: 1;
+    }
+
+    .global__manpowerContainerRight{
+        width: 100%;
+        flex: 1;
+        display: flex;
+    }
+
+    .global__manpowerContainer{
+        width: 100%;
+    }
+
+    .global__manpowerText{
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .global__manpowerPara>p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .global__manpowerContainer{
+        gap: 50px;
+    }
+
+    .Button{
+        font-size: 20px;
+        width: 100%;
+    }
+    .global__manpowerContainerLeft{
+        align-items: center;
+    }
+
+    .global__manpowerContainer{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .path__heading>h1{
+        font-size: 40px;
+    }
+
+    .path__cardHeading>h1{
+        font-size: 18px;
+    }
+
+    .path__cardHeadingContainer .MuiSvgIcon-root{
+        font-size: 30px !important;
+    }
+
+    .path__cardContent>p{
+        font-size: 13px;
+    }
+
+    .construction__container{
+        flex-direction: column;
+    }
+
+    .construction__container>img{
+        height: 300px;
+    }
+
+    .construction__content{
+        align-items: center;
+    }
+
+    .construction__content1{
+        align-items: center;
+    }
+
+    .construction__heading1{
+        align-items: center;
+    }
+
+    .construction__heading2{
+        align-items: center;
+    }
+
+    .construction__container3>h1{
+        text-align: center;
+    }
+
+    .construction__container4>h1{
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .global__manpowerContainerRight>img{
+        height: 300px;
+    }
+
+    .global__manpowerContainer{
+        gap: 10px;
+    }
+
+    .global__manpowerText{
+        font-size: 22px;
+    }
+
+    .global__manpowerPara>p{
+        font-size: 14px;
+    }
+
+    .global__manpowerContainerLeft{
+        gap: 15px;
+    }
+
+    .Button{
+        font-size: 15px;
+    }
+
+    .path__cardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .path__heading>h1{
+        margin-bottom: 50px;
+    }
+
+    .path__cardHeadingContainer{
+        align-items: center;
+        justify-content: center;
+    }
+    .path__cardHeading>h1{
+        font-size: 20px;
+    }
+    .path__cardHeadingContainer .MuiSvgIcon-root{
+        font-size: 40px !important;
+    }
+
+    .path__cardContent{
+        align-items: center;
+    }
+
+    .path__cardContent>p{
+        font-size: 18px;
+    }
+
+    .professional__container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        border-radius: 20px;
+    }
+
+    .professional__container>img{
+        border-radius: 20px;
+    }
+
+    .professional__content{
+        align-items: center;
+    }
+    .professional__heading{
+        align-items: center;
+    }
+
+    .professional__para{
+        align-items: center;
+    }
+
+    .unique__container{
+        flex-direction: column;
+        border-radius: 20px;
+    }
+
+    .unique__content{
+        align-items: center;
+    }
+
+    .unique__container>img{
+        border-radius: 20px;
+    }
+
+    .unique__heading{
+        align-items: center;
+    }
+
+    .shortage__container{
+        flex-direction: column-reverse;
+    }
+
+    .shortage__container>img{
+        height: 320px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    .shortage__box{
+        position: static;
+        width: 100%;
+        padding: 0px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .intro__container{
+        flex-direction: column;
+    }
+
+    .intro__container>img{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .intro__content{
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .intro__contentPara{
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .path__heading>h1{
+        font-size: 30px;
+    }
+
+    .construction__container>img{
+        height: 250px;
+    }
+
+    .construction__container{
+        padding: 10px;
+        border-radius: 20px;
+    }
+
+    .construction__container3>h1{
+        font-size: 20px;
+    }
+    .construction__container4>h1{
+        font-size: 20px;
+    }
+
+    .construction__heading1>h1{
+        font-size: 20px;
+    }
+    .construction__heading2>h1{
+        font-size: 20px;
+    }
+
+    .construction__lists1{
+        gap: 50px;
+        align-items: center;
+    }
+
+    .construction__lists2{
+        gap: 30px;
+        align-items: flex-start;
+    }
+    .construction__lists3{
+        gap: 50px;
+    }
+
+    .construction__list2>ul{
+        font-size: 13px;
+    }
+    .construction__list1>ul{
+        font-size: 13px;
+    }
+
+    .professional__container>img{
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .path__heading>h1{
+        font-size: 20px;
+    }
+    .path__cardHeading>h1{
+        font-size: 13px;
+    }
+    .path__cardHeadingContainer .MuiSvgIcon-root{
+        font-size: 25px!important;
+    }
+    .path__cardContent>p{
+        font-size: 13px;
+    }
+
+    .construction__container>img{
+        height: 180px;
+    }
+    .construction__container{
+        padding: 5px;
+    }
+
+    .construction__content>h1{
+        font-size: 15px;
+    }
+
+    .construction__heading1>h1{
+        font-size: 15px;
+    }
+
+    .construction__heading2>h1{
+        font-size: 15px;
+    }
+
+    .construction__content1>p{
+        font-size: 13px;
+    }
+
+    .construction__lists1{
+        gap: 40px;
+    }
+
+    .construction__list2>ul{
+        font-size: 11px;
+    }
+    .construction__list1>ul{
+        font-size: 11px;
+    }
+
+    .construction__container3>h1{
+        font-size: 15px;
+    }
+
+    .construction__container4>h1{
+        font-size: 15px;
+    }
+
+    .professional__container>img{
+        height: 170px;
+        max-width: 300px;
+        min-width: 300px;
+    }
+
+    .professional__container{
+        padding: 0px;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }  
+
+    .professional__heading>h1{
+        font-size: 22px;
+    }
+
+    .professional__para{
+        font-size: 13px;
+    }
+
+    .professional__list1>ul{
+        font-size: 11px;
+    }
+
+    .professional__list2>ul{
+        font-size: 11px;
+    }
+
+    .professional__lists{
+        gap: 30px;
+    }
+
+    .professional__button{
+        font-size: 12px;
+        width: 30%;
+        border-radius: 10px;
+    }
+
+    .professional__button .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+
+    .text__containerImage1>img{
+        height: 40px;
+    }
+
+    .unique__container>img{
+        height: 350px;
+    }
+
+    .unique__container{
+        align-items: center;
+    }
+
+    .unique__content>h1{
+        font-size: 14px;
+    }
+
+    .unique__heading>h1{
+        font-size: 22px;
+    }
+
+    .unique__cardHeading>h1{
+        font-size: 15px;
+    }
+
+    .unique__cardContent>p{
+        font-size: 10px;
+    }
+
+    .unique__content{
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    .shortage__container>img{
+        height: 250px;
+    }
+
+    .shortage__container{
+        margin-right: 0px;
+    }
+
+    .intro__container>img{
+        height: 200px;
+    }
+
+    .intro__contentPara>p{
+        font-size: 12px;
+    }
+
+    .intro__container .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+
+    .intro__content>p{
+        font-size: 9px;
+    }
+
+}
+
+
+@media screen and (max-width: 400px) {
+    .global__manpowerContainerRight>img{
+        height: 200px;
+    }
+
+    .global__manpowerContainer{
+        gap: 10px;
+    }
+
+    .global__manpowerText{
+        font-size: 18px;
+    }
+
+    .global__manpowerPara>p{
+        font-size: 11px;
+    }
+
+    .global__manpowerContainerLeft{
+        gap: 15px;
+    }
+
+    .Button{
+        font-size: 12px;
+        padding: 5px 15px;
+    }
+
+    .construction__container>img{
+        height: 140px;
+    }
+
+    .construction__container{
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .construction__content1>p{
+        font-size: 11px;
+    }
+
+    .construction__list1>ul{
+        font-size: 10px;
+    }
+
+    .construction__list2>ul{
+        font-size: 10px;
+    }
+
+    .shortage__container>img{
+        height: 200px;
+    }
+
+    .shortage__box>h1{
+        font-size: 18px;
+    }
+
+    .shortage__boxContent1>p{
+        font-size: 13px;
+    }
+
+    .shortage__boxContent2>p{
+        font-size: 13px;
+    }
+
+    .shortage__box>p{
+        font-size: 10px;
+    }
+
+    .intro__container>img{
+        height: 170px;
+    }
+
+    .intro__content{
+        padding: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 300px) {
+    .global__manpowerPara>p{
+        font-size: 10px;
+    }
+
+    .Button{
+        border-radius: 10px;
+    }
+
+    .path__heading>h1{
+        font-size: 16px;
+    }
+
+    .professional__container{
+        padding: 0px;
+    }
+
+    .professional__container>img{
+        height: 150px;
+        max-width: 270px;
+        min-width: 270px;
+    }
+
+    .professional__para{
+        font-size: 11px;
+    }
+
+    .professional__lists{
+        gap: 20px;
+    }
+
+    .professional__list1>ul{
+        font-size: 10px;
+    }
+    .professional__list2>ul{
+        font-size: 10px;
+    }
+
+    .professional__button{
+        gap: 5px;
+        font-size: 10px;
+    }
+
+    .professional__button .MuiSvgIcon-root{
+        font-size: 12px !important;
+    }
+
+    .unique__cardContent>p{
+        font-size: 9px;
+    }
+
+    .unique__heading>h1{
+        font-size: 17px;
+    }
+
+    .unique__content>h1{
+        font-size: 11px;
+    }
+
+    .shortage__container>img{
+        height: 170px;
+    }
+
+    .shortage__boxContent1>p{
+        font-size: 11px;
+    }
+
+    .shortage__boxContent2>p{
+        font-size: 11px;
+    }
+
+    .shortage__box>p{
+        font-size: 9px;
+    }
+}

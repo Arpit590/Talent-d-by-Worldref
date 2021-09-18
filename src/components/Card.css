@@ -1,0 +1,222 @@
+.card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 100%;
+    gap: 60px;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    margin-bottom: 30px;
+}
+
+.card__image{
+    object-fit: contain;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.card__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+}
+
+.card__contentHeading{
+    display: flex ;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.card__contentHeading>h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card__contentPara{
+    display: flex;
+    flex-direction: column;
+}
+.card__contentPara>p{
+    font-size: 20px;
+}
+
+.card__contentButton{
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+
+.card__contentButton>a{
+    display: flex;
+    text-decoration: none;
+    align-items: center !important;
+    color: orangered;
+    gap: 5px;
+    font-weight: bold !important;
+    transition: all 0.4s ease;
+}
+.card__contentButton>a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+
+.card__contentButton:hover .arrow{
+    transform: scale(1.2);
+    transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 1220px) {
+    .card1{
+        padding: 20px;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .card1{
+        padding: 15px;
+        gap: 30px;
+    }
+
+    .card__image{
+        height: 250px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 30px;
+    }
+
+    .card__contentPara>p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .card__image{
+        height: 200px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 25px;
+    }
+
+    .card__contentButton{
+        font-size: 13px;
+    }
+
+    .card__contentButton .MuiSvgIcon-root {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card1{
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .card__content{
+        align-items: center;
+    }
+
+    .card__image{
+        height: 300px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .card__contentPara>p{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .card__contentButton{
+        font-size: 18px;
+    }
+
+    .card__contentButton .MuiSvgIcon-root{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .card__image{
+        height: 200px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 25px;
+    }
+
+    .card__content{
+        width: max-content;
+    }
+
+    .card__contentPara>p{
+        font-size: 15px;
+    }
+
+    .card__contentButton .MuiSvgIcon-root{
+        font-size: 18px;
+    }
+    .card__contentButton{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+
+    .card__image{
+        height: 150px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 25px;
+    }
+
+    .card__contentPara>p{
+        font-size: 13px;
+    }
+
+    .card__contentButton .MuiSvgIcon-root{
+        font-size: 15px;
+    }
+    .card__contentButton{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+
+    .card__image{
+        height: 120px;
+    }
+
+    .card__contentHeading>h1{
+        font-size: 20px;
+    }
+
+    .card__contentPara>p{
+        font-size: 12px;
+    }
+
+    .card__contentButton .MuiSvgIcon-root{
+        font-size: 13px;
+    }
+    .card__contentButton{
+        font-size: 11px;
+    }
+}

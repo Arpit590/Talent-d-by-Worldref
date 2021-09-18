@@ -1,0 +1,446 @@
+.global__deputation{
+    margin-top: 70px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.global__deputationContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+/* The Global Deputation Box Section Starts */
+
+.global__deputationBox{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: whitesmoke;
+    align-items: flex-start;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 40px;
+}
+
+.global__deputationBoxContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+
+.global__deputationBoxHeading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.global__deputationBoxHeading>h1{
+    font-size: 40px;
+}
+
+.global__deputationBoxPara{
+    display: flex;
+    flex-direction: column;
+}
+
+.global__deputationBoxPara>p{
+    font-size: 20px;
+    color: gray;
+}
+
+.global__deputationBox>img{
+    object-fit: contain;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.global__deputationCards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.global__deputationCard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.global__deputationCard>h1{
+    font-size: 20px;
+}
+
+.global__deputationCardPara{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.global__deputationCardPara>p{
+    font-size: 15px;
+}
+
+.global__deputationCardRow{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    justify-content: center;
+}
+
+.arrow .MuiSvgIcon-root{
+    font-size: 40px !important;
+    color: orangered;
+    transition: all 0.5s ease;
+    margin-top: -10px;
+}
+
+.arrow .MuiSvgIcon-root:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/* The Global Deputation Box Section Ends */
+
+
+/* The Focus Section Starts */
+
+.focus__container{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.focus__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.focus__heading>h1{
+    font-size: 40px;
+}
+
+.focus__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.focus__content>p{
+    font-size: 20px;
+}
+
+/* The Focus Section Ends */
+
+/* The Card Section Starts */
+
+.global__deputationCardSection{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 0px;
+    justify-content: center;
+}
+
+.global__deputationCardContainer{
+    display: flex;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    gap: 10px;
+}
+
+.global__deputationCardContainer>img{
+    object-fit: contain;
+    height: 400px;
+    max-width: 400px;
+    min-width: 400px;
+}
+
+.global__deputationCardContent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.global__deputationCardContent>h1{
+    font-size: 40px;
+}
+
+.global__deputationCardParas{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.global__deputationCardParas>p{
+    font-size: 20px;
+}
+
+.global__deputationButton{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.5s ease-out;
+}
+
+.global__deputationButton:hover{
+    color: orangered;
+    cursor: pointer;
+}
+
+/* The Card Section Ends */
+
+@media screen and (max-width: 1300px) {
+    .global__deputationBox>img{
+        height: 350px;
+    }
+
+    .global__deputationBoxContent{
+        gap: 20px;
+    }
+
+    .global__deputationBoxHeading>h1{
+        font-size: 30px;
+    }
+
+    .global__deputationBoxPara>p{
+        font-size: 15px;
+    }
+
+    .global__deputationCardPara>p{
+        font-size: 12px
+    };
+
+    .global__deputationCard>h1{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .global__deputationBox>img{
+        height: 300px;
+        border-radius: 20px;
+    }
+
+
+    .global__deputationBoxHeading>h1{
+        font-size: 25px;
+    }
+
+    .global__deputationBox{
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .global__deputationBoxPara>p{
+        font-size: 13px;
+    }
+
+    .global__deputationCard>h1{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .global__deputationBox{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin-top: -10px;
+        align-items: center;
+        padding: 0px;
+        background-color: transparent;
+    }
+
+    .global__deputation{
+        margin-top: 0px;
+        width: 100%;
+    }
+    .global__deputationContainer{
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .global__deputationBox>img{
+        object-fit: fill;
+        width: 100%;
+        flex: 1;
+        border-radius: 0px;
+    }
+
+    .global__deputationBoxContent{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+        gap: 30px;
+    }
+    .global__deputationBoxHeading{
+        align-items: center;
+    }
+
+    .global__deputationBoxHeading>h1{
+        font-size: 30px;
+    }
+
+    .global__deputationBoxPara>p{
+        font-size: 20px;
+    }
+
+    .global__deputationCard>h1{
+        font-size: 20px;
+    }
+
+    .global__deputationCardPara>p{
+        font-size: 15px;
+    }
+
+    .global__deputationCardContent>h1{
+        font-size: 28px;
+    }
+
+    .global__deputationCardParas>p{
+        font-size: 15px;
+    }
+
+    .global__deputationButton{
+        font-size: 14px;
+    }
+
+    .global__deputationButton .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .focus__heading>h1{
+        font-size: 30px;
+    }
+
+    .focus__content>p{
+        font-size: 17px;
+    }
+
+    .global__deputationCardContainer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .global__deputationCardContent{
+        align-items: center;
+    }
+
+    .global__deputationCardParas{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .focus__heading>h1{
+        font-size: 21px;
+    }
+
+    .focus__content>p{
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .global__deputationBoxHeading>h1{
+        font-size: 20px;
+    }
+
+    .global__deputationBoxPara>p{
+        font-size: 13px;
+    }
+    .global__deputationCard>h1{
+        font-size: 15px;
+    }
+
+    .global__deputationCard{
+        margin-bottom: 0px;
+    }
+
+    .global__deputationCardPara>p{
+        font-size: 13px;
+    }
+
+    .arrow .MuiSvgIcon-root{
+        font-size: 30px !important;
+    }
+
+    .focus__heading>h1{
+        font-size: 15px;
+    }
+
+    .focus__content>p{
+        font-size: 10px;
+    }
+
+    .global__deputationCardContainer>img{
+        height: 150px;
+        max-width: 300px;
+        min-width:300px;
+    }
+    .global__deputationCardContent>h1{
+        font-size: 20px;
+    }
+
+    .global__deputationCardParas>p{
+        font-size: 11px;
+    }
+
+    .global__deputationCardContainer{
+        padding: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .global__deputationButton{
+        font-size: 12px;
+    }
+
+    .global__deputationButton .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .global__deputationCardRow{
+        flex-direction: column;
+    }
+
+    .focus__heading>h1{
+        font-size: 12px;
+    }
+
+    .focus__content>p{
+        font-size: 8px;
+    }
+
+    .global__deputationCardContainer>img{
+        max-width: 250px;
+        min-width: 250px
+    }
+
+    .global__deputationCardParas>p{
+        font-size: 10px;
+    }
+
+    .card__box{
+        margin-bottom: 0px;
+    }
+
+}

@@ -1,0 +1,102 @@
+.jobcard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 300px;
+    min-width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.4s ease-out;
+    margin-bottom: 40px;
+}
+.jobcard:hover{
+    transform: scale(1.1);
+}
+
+.jobcard__heading{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: gray;
+}
+
+.jobcard>h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.jobcard__lists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.jobcard__list{
+    display: flex;
+    gap: 10px;
+}
+
+.jobcard__icons{
+    color: gray !important;
+    transition: all 0.4s ease-in-out;
+}
+
+.jobcard__icons:hover{
+    cursor: pointer;
+}
+
+.jobcard__list>p{
+    color:  gray;
+}
+
+.jobcard>a>button{
+    align-self: center;
+    padding: 8px 20px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.jobcard>a>button:hover{
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+ @media screen and (max-width: 400px) {
+     .jobcard:hover{
+         transform: none;
+     }
+     .jobcard>h2{
+         font-size: 15px;
+     }
+ }
+
+ @media screen and (max-width: 360px) {
+
+    .jobcard{
+        align-items: center;
+    }
+    .jobcard>h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    .jobcard__heading{
+        align-items: center;
+    }
+    .jobcard__heading>h4{
+        text-align: center;
+    }
+
+    .jobcard{
+        max-width: 200px;
+        min-width: 200px;
+    }
+}

@@ -1,0 +1,134 @@
+.globalcard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.globalcard__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 800px;
+    max-width: 800px;
+    padding: 40px;
+    background-color: whitesmoke;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+}
+
+
+.globalcard__container>img{
+    object-fit: contain;
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.globalcard__contentContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.globalcard__heading{
+    display: flex;
+    flex-direction: column;
+}
+
+.globalcard__heading>h1{
+    font-size: 35px;
+}
+
+.globalcard__content{
+    display: flex;
+    flex-direction: column;
+}
+
+.globalcard__content>p{
+    color: gray;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+    .globalcard__heading>h1{
+        font-size: 30px;
+    }
+    .globalcard__container>img{
+        min-height: 200px;
+        max-height: 200px;
+    }
+
+    .globalcard__content>p{
+        font-size: 13px;
+    }
+
+    .globalcard__container{
+        min-width: 600px;
+        max-width: 600px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .globalcard__heading>h1{
+        font-size: 20px;
+    }
+
+    .globalcard__content>p{
+        font-size: 13px;
+    }
+    .globalcard__container>img{
+        min-height: 150px;
+        max-height: 150px;
+    }
+
+    .globalcard__container{
+        min-width: 500px;
+        max-width: 500px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .globalcard__container{
+        flex-direction: column-reverse;
+        padding: 20px;
+        gap: 20px;
+        max-width: 400px;
+        min-width: 400px;
+    }
+
+    .globalcard__heading{
+        align-items: center;
+    }
+
+    .globalcard__content{
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .globalcard__container{
+        min-width: 250px;
+        max-width: 250px;
+    }   
+
+    .globalcard__content>p{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .globalcard__container{
+        padding: 12px;
+        gap: 20px;
+        min-width: 220px;
+        max-width: 220px;
+    }
+
+    .globalcard__heading>h1{
+        font-size: 18px;
+    }
+
+    .globalcard__content>p{
+        font-size: 10px;
+    }
+}
+

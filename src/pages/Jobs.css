@@ -1,0 +1,227 @@
+.jobs{
+    margin-top: 90px;
+    overflow: hidden;
+}
+
+.jobs__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    justify-content: center;
+}
+
+.jobs__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    z-index: 9;
+    height: 500px;
+    justify-content: center;
+}
+
+.jobs__contentContainer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: rgba(0,88,95,1);
+    width: 100%;
+    height: 70%;
+    opacity: 0.8;
+    justify-content: center;
+    align-items: center;
+}
+
+.jobs__content>img{
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+    height: 100px;
+    flex: 1;
+}
+
+.jobs__contentHeading{
+   display: flex;
+   gap: 10px; 
+   margin-top: -40px;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+.jobs__contentHeading>h1{
+    font-size: 58px;
+    color: #fff;
+}
+
+.jobs__contentPara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.jobs__contentPara>p{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.jobs__contentContainerButton{
+    padding: 8px 20px;
+    background-color: orangered;
+    color: #fff;
+    opacity: 1 !important;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.4s ease-in-out;
+    font-size: 20px;
+}
+
+.jobs__contentContainerButton:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: orangered;
+    border: 1px solid orangered;
+}
+
+.jobs__lists{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.jobs__open{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 40px;
+}
+
+.jobs__closed{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-column-gap: 40px;
+}
+.jobs__lists>h1{
+    font-size: 46px;
+}
+
+@media screen and (max-width: 1150px) {
+    .jobs__open{
+        grid-template-columns: repeat(2, auto) !important;
+    }
+
+    .jobs__closed{
+        grid-template-columns: repeat(2, auto) !important;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .jobs__content>img{
+        height: 100%;
+    }
+
+    .jobs__contentHeading>h1{
+        font-size: 50px;
+    }
+
+    .jobs__contentPara>p{
+        font-size: 20px;
+    }
+
+    .jobs__contentContainerButton{
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
+    .jobs__open{
+        grid-template-columns: repeat(1, auto) !important;
+    }
+    .jobs__closed{
+        grid-template-columns: repeat(1, auto) !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .jobs__contentHeading>h1{
+        font-size: 40px;
+    }
+
+    .jobs__contentPara>p{
+        font-size: 18px;
+    }
+
+    .jobs__contentContainerButton{
+        font-size: 13px;
+        padding: 5px 15px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .jobs__contentHeading>h1{
+        font-size: 30px;
+    }
+
+    .jobs__contentPara>p{
+        font-size: 14px;
+    }
+
+    .jobs__contentContainerButton{
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .jobs__contentContainer{
+        height: 56%;
+    }
+    .jobs__content{
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .jobs__contentHeading>h1{
+        font-size: 20px;
+        color: black;
+    }
+
+    .jobs__contentPara>p{
+        font-size: 12px;
+        color: black;
+        font-weight: bolder;
+    }
+
+    .jobs__contentPara{
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 20px;
+        opacity: 1;
+        z-index: 4;
+        box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    }
+
+    .jobs__contentContainerButton{
+        font-size: 11px;
+        color: black;
+        font-weight: bolder;
+    }
+    .jobs__contentContainer{
+        background-color: transparent;
+    }
+    .jobs__content>img{
+        opacity: 0.6;
+    }
+}

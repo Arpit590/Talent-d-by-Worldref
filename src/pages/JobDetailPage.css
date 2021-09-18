@@ -1,0 +1,412 @@
+.job__detail{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.job__detailContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    min-width: 290px;
+}
+
+.job__detailContainer1{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.job__detailProfile{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job__detailProfile>h1{
+    font-size: 23px;
+    color: #242424;
+    font-weight: bolder;
+}
+
+
+.job__detailLists{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.job__detailList{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+}
+
+.job__detailList>p{
+    font-size: 15px;
+}
+
+.job__detailButton{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.job__detailButton>button{
+    padding: 10px 22px;
+    background-color: orangered;
+    color: #fff;
+    border: 1px solid transparent;
+    width: 25%;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+
+.job__detailButton>button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+
+.job__detailRoles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.job__detailRoles>h1{
+    font-size: 23px;
+    border-bottom: 3px solid orangered;
+    display: flex;
+    padding-bottom: 5px;
+    width: 300px;
+}
+
+.job__detailRolesList>ul>li{
+    padding-bottom: 8px;
+    font-size: 15px;
+    color: gray;
+}
+
+.job__detailPosition{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.job__detailPosition>h1{
+    font-size: 23px;
+    border-bottom: 3px solid orangered;
+    width: 200px;
+    padding-bottom: 5px;
+}
+
+.job__detailPosition>ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: gray;
+}
+
+
+.job__detailPosition>button{
+    padding: 10px 25px;
+    background-color: orangered;
+    color: #fff;
+    border: 1px solid transparent;
+    transition: all 0.5s ease;
+    width: 20%;
+    font-size: 15px;
+}
+
+.job__detailPosition>button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.job__background{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 9px 3px rgb(41 41 41 / 25%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.job__background>h1{
+    font-size: 23px;
+    border-bottom: 3px solid orangered;
+    padding-bottom: 5px;
+    width: 250px;
+}
+
+.job__backgroundContent{
+    display: flex;
+    flex-direction: column;
+}
+
+.job__backgroundContent>p{
+    font-size: 15px;
+    color: gray;
+    font-weight: bolder;
+}
+
+@media screen and (max-width: 1000px) {
+    .job__detailContainer{
+        max-width: 800px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .job__detailContainer{
+        max-width: 600px;
+    }
+
+    .job__detailProfile>h1{
+        font-size: 20px;
+    }
+
+    .job__detailList>p{
+        font-size: 13px;
+    }
+
+    .job__detailButton>button{
+        width: 30%;
+        font-size: 13px;
+    }
+
+    .job__detailButton{
+        margin-right: 50px;
+    }
+
+    .job__detailRoles>h1{
+        font-size: 20px;
+        width: 270px;
+        margin-top: 20px;
+    }
+
+    .job__detailRolesList>ul>li>p{
+        font-size: 13px;
+    }
+
+    .job__detailPosition>h1{
+        font-size: 20px;
+        width: 160px;
+    }
+
+    .job__detailPosition>ul>li>p{
+        font-size: 13px;
+    }
+
+    .job__detailPosition>button{
+        width: 25%;
+        font-size: 13px;
+    }
+
+    .job__background>h1{
+        font-size: 20px;
+        width: 220px;
+    }
+
+    .job__backgroundContent>p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .job__detailContainer{
+        max-width: 400px;
+    }
+
+    .job__detailContainer>p{
+        font-size: 13px;
+    }
+
+    .job__detailProfile>h1{
+        font-size: 16px;
+    }
+
+    .job__detailList>p{
+        font-size: 11px;
+    }
+
+    .job__detailList .MuiSvgIcon-root{
+        font-size: 20px !important;
+    }
+
+    .job__detailButton>button{
+        width: 40%;
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+
+    .job__detailButton{
+        margin-right: 10px;
+    }
+
+    .job__detailRoles>h1{
+        font-size: 16px;
+        width: 220px;
+        margin-top: 20px;
+    }
+
+    .job__detailRolesList>ul>li>p{
+        font-size: 11px;
+    }
+
+    .job__detailPosition>h1{
+        font-size: 16px;
+        width: 120px;
+    }
+
+    .job__detailPosition>ul>li>p{
+        font-size: 11px;
+    }
+
+    .job__detailPosition>button{
+        width: 35%;
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+
+    .job__background>h1{
+        font-size: 16px;
+        width: 170px;
+    }
+
+    .job__backgroundContent>p{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .job__detailContainer{
+        max-width: 200px;
+    }
+
+    .job__detailContainer>p{
+        font-size: 11px;
+    }
+
+    .job__detailProfile>h1{
+        font-size: 14px;
+    }
+
+    .job__detailList>p{
+        font-size: 9px;
+    }
+
+    .job__detailList .MuiSvgIcon-root{
+        font-size: 15px !important;
+    }
+
+    .job__detailButton>button{
+        font-size: 10px;
+        padding: 4px 10px;
+    }
+
+    .job__detailButton{
+        justify-content: center;
+    }
+
+    .job__detailRoles>h1{
+        font-size: 14px;
+        width: 190px;
+    }
+
+
+    .job__detailRolesList>ul>li>p{
+        font-size: 9px;
+    }
+
+    .job__detailRolesList>ul>li{
+        font-size: 9px;
+    }
+
+    .job__detailPosition>h1{
+        font-size: 14px;
+        width: 100px;
+    }
+
+    .job__detailPosition>ul>li>p{
+        font-size: 9px;
+    }
+
+    .job__detailPosition>ul>li{
+        font-size: 9px;
+    }
+
+    .job__detailPosition>button{
+        width: 40%;
+        align-self: center;
+        font-size: 10px;
+        padding: 4px 15px;
+    }
+
+    .job__background>h1{
+        font-size: 14px;
+        width: 140px;
+    }
+
+    .job__backgroundContent>p{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .job__detailContainer{
+        max-width: 250px;
+        min-width: 250px;
+        align-items: center;
+    }
+
+    .job__detailContainer>p{
+        font-size: 10px;
+    }
+
+    .job__detailProfile>h1{
+        font-size: 13px;
+
+    }
+
+
+    .job__detailButton{
+        width: 200px;
+    }
+
+    .job__detailRoles>h1{
+        font-size: 13px;
+        width: 170px;
+    }
+
+    .job__detailPosition>h1{
+        font-size: 13px;
+    }
+
+    .job__detailPosition>button{
+        width: 50%;
+    }
+
+    .job__background>h1{
+        font-size: 13px;
+        width: 130px;
+    }
+}

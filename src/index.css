@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto" , sans-serif;
+}
+
+a.active{
+  border-bottom: 4px solid orangered;
+}
+
+/* The Modal Section Starts */
+
+.modal{
+  display: flex;
+  gap: 10px;
+}
+
+.modal__image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border-top-left-radius: 18px;
+  width: 300px;
+  padding: 20px;
+  border-bottom-left-radius: 18px;
+}
+
+.modal__image>img{
+  object-fit: contain;
+  height: 400px;
+}
+.modal__image>p{
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 12px;
+}
+.modal__formContainer{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 20px;
+  flex: 1;
+  margin-top: 10px;
+  flex-direction: column;
+}
+
+.close{
+  align-self: flex-end;
+  font-size: 40px !important;
+  transition: all 0.5s ease;
+  color: black !important;
+}
+
+.close:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.modal__formContainer>h1{
+  font-size: 30px;
+}
+
+.modal__form{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.modal__form>form{
+  display: flex;
+  gap: 40px;
+}
+.modal__input{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.modal__input>input{
+  padding: 8px;
+  border: 1px solid black;
+}
+.modal__button{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-start;
+}
+.modal__button>textarea{
+  width: 200px;
+  height: 120px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: start;
+}
+.modal__button>button{
+  padding: 8px 20px;
+  border-radius: 20px;
+  background-color: orangered;
+  color: #fff;
+  align-self: flex-end;
+  transition: all 0.4s ease-out;
+  border: 1px solid black;
+}
+
+.modal__button>button:hover{
+  color: rgb(112, 89, 81);
+  border: 1px solid orangered;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.modal__icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.modal__icon{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.modal__icon>a{
+  text-decoration: none;
+  color: black;
+}
+.linkedin{
+  font-size: 40px !important;
+}
+.whatsapp{
+  font-size: 40px !important;
+}
+.facebook{
+  font-size: 40px !important;
+}
+.modal__links{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.modal__links>p{
+  color: gray;
+  font-size: 15px;
+}
+.modal__links>a{
+  text-decoration: none;
+  color: gray;
+  border-bottom: 1px solid transparent;
+}
+.modal__links>a:hover{
+  border-bottom: 1px solid gray;
+}
+
+/* The modal section ends */
+
+/* The talent section starts */
+
+.talentBox{
+  display: flex;
+  background-color: #251C29;
+  align-items: center;
+  border-radius: 20px !important;
+}
+
+.talentBox__container{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex: 1;
+  padding: 20px;
+  gap: 50px;
+}
+
+.talentBox__image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.talentBox__image>img{
+  object-fit: contain;
+  height: 400px;
+}
+
+.talentBox__image>h2{
+  font-size: 33px;
+  color: #fff;
+}
+.talentBox__imageHeading{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.talentBox__imageHeading>h2{
+  font-size: 33px;
+  color: #fff;
+}
+
+.main{
+  color: orangered !important;
+}
+
+.talentBox__form{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+  flex: 1;
+}
+
+.close1{
+  align-self: flex-end;
+  border: 1px solid gray;
+  border-radius: 20px;
+  padding: 3px;
+  color: gray !important;
+  transition: all 0.4s ease-out !important;
+}
+
+.close1:hover{
+  cursor: pointer;
+  border: 1px solid black;
+  color: black !important;
+}
+
+.talent__BoxformHeading{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.talent__BoxformHeading>h1{
+  font-size: 35px;
+  color: #fff;
+}
+
+.main1{
+  color: orangered !important;
+}
+
+.talentBox__formContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.talentBox__formInput{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.talentBox__formInput>input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.talentBox__formContainer>input{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #fff !important;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.talentBox__formContainer>textarea{
+  background-color: transparent;
+  height: 150px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+  padding: 5px;
+}
+
+.talentBox__formContainer>button{
+  background-color: transparent;
+  border: 1px solid orangered;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: orangered;
+  transition: all 0.4s ease-out;
+}
+
+.talentBox__formContainer>button:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: orangered;
+}
+
+.talentBox__form>p{
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* The talentBox Section Ends */
+
+
+/* The Resume Section Starts */
+
+.resume__container{
+  display: flex;
+  align-items: center;
+  background: rgba(2,16,35,1);
+  border-radius: 20px;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.resume__image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume__image>img{
+  object-fit: contain;
+  height: 300px;
+}
+
+.resume__image>h2{
+  color: #fff;
+}
+
+.close2{
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 20px;
+  padding: 5px;
+  position: absolute;
+  right: 3%;
+  top: 5%;
+  transition: all 0.4s ease;
+}
+
+.close2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.resume__imageHeading{
+  display: flex;
+  color: #fff;
+  gap: 6px;
+}
+
+.resume__form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 30px;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume__formHeading{
+  display: flex;
+  gap: 8px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 5px;
+  align-items: center;
+}
+
+.resume__formContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-top: 1px solid #fff;
+  padding: 40px;
+}
+
+.resume__formContainer>h1{
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: -5px;
+}
+
+.resume__formContainer>p{
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.file{
+  display: none;
+}
+
+.resume__formContainer>label{
+  display: flex;
+  background-color: #fff;
+  width: 100%;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 8px 20px;
+  transition: all 0.5s ease-out;
+  margin-bottom: 10px;
+}
+
+.resume__formContainer>label:hover{
+  cursor: pointer;
+  color: orangered;
+}
+
+.email{
+  padding: 8px 20px;
+  width: 100%;
+  background-color: gray;
+  border: none;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.resume__formContainer>textarea{
+  background-color: gray;
+  width: 100%;
+  height: 130px;
+  border-radius: 20px;
+  opacity: 0.7;
+  padding: 10px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.email::placeholder{
+  color: #fff;
+}
+
+.resume__formContainer>textarea::placeholder{
+  color: #fff;
+}
+
+.resume__formContainer>button{
+  padding: 8px 20px;
+  border-radius: 20px;
+  background-color: orangered;
+  color: #fff;
+  width: 100%;
+  border: 1px solid orangered;
+  transition: all 0.5s ease-out;
+}
+
+.resume__formContainer>button:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: orangered;
+}
+
+.resume__form>p{
+  display: flex;
+  color: #fff;
+  font-size: 13px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1080px){
+  a.active{
+    border: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .resume__image>img{
+    height: 200px;
+  }
+  .resume__form>p{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .resume__formHeading{
+    font-size: 10px;
+  }
+
+  .resume__imageHeading{
+    font-size: 15px;
+  }
+
+  .resume__container{
+    padding: 30px;
+  }
+
+  .resume__formContainer>h1{
+    font-size: 15px;
+  }
+
+  .resume__form>p{
+    font-size: 8px;
+  }
+
+  .resume__image>h2{
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resume__image{
+    display: none;
+  }
+
+  .resume__container{
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .resume__form>p{
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .close2{
+    font-size: 18px !important;
+  }
+
+  .resume__formContainer>label{
+    width: 100%;
+  }
+
+  .email{
+    width: 100%;
+  }
+  
+  .resume__formContainer>textarea{
+    width: 100%;
+  }
+
+  .resume__container{
+    padding: 30px;
+  }
+
+  .resume__formContainer{
+    padding: 30px;
+  }
+
+  .resume__form>p{
+    font-size: 6px;
+  }
+}
