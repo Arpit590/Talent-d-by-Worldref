@@ -19,7 +19,9 @@ import ArrowDropUpIcon from '@material-ui/icons/ArrowDropUp';
 import BottomLinks from './components/BottomLinks';
 import JobDetailPage from './pages/JobDetailPage';
 import JobClosedDetail from "./pages/JobClosedDetail";
-
+import { useEffect } from 'react';
+import BounceLoader from "react-spinners/BounceLoader";
+import { Fade } from 'react-awesome-reveal';
 
 function getModalStyle() {
   const top = 50;
@@ -51,6 +53,14 @@ function App() {
     const [open2, setOpen2] = useState(false);
     const [open3, setOpen3] = useState(false);
     const [scroll, setScroll] = useState(false);
+    const [loading, setLoading] = useState(false);
+
+    useEffect(()=>{
+      setLoading(true);
+      setTimeout(()=>{
+        setLoading(false);
+      }, 4000)
+    }, [])
 
     const submitHandler=(e)=>{
       e.preventDefault();
@@ -85,8 +95,21 @@ function App() {
 
   
   return (
-    <div className="app">
-      <Header/>
+
+      <div className="app">
+        {loading ? 
+        (
+        <div className="loading">
+          <Fade duration={2000}>
+            <img src="../assets/Logo.png" className="loading__image" alt="LaodingImage"/>
+            <BounceLoader color={"#F37A24"}
+            loading={loading} 
+            size={30} />
+          </Fade>
+         </div>
+         ) :
+        (<>
+        <Header/>
       <ScrollToTop/>
       <Switch>
         <Route path="/" exact>
@@ -118,6 +141,8 @@ function App() {
         </Route>
         <Redirect to="/" exact/>
       </Switch>
+      </>
+      )}
 
       <Modal
         open={open}
@@ -338,7 +363,6 @@ function App() {
               </div>
             </div>
               )}
-      
     </div>
   );
 }

@@ -366,6 +366,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
+    padding: 20px;
     gap: 100px;
     background-color: whitesmoke;
 }
@@ -1235,6 +1236,10 @@
 
     .intro__content>p{
         font-size: 9px;
+    }
+
+    .professional__button{
+        width: 40%;
     }
 
 }

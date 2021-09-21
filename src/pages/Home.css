@@ -1342,9 +1342,10 @@
     }
 
     .card__box1{
-        padding-top: 10px;
-        padding-left: 5px;
-        padding-right: 5px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+        padding-right: 10px;
     }
 
     .card__box1Image>img{
@@ -1449,6 +1450,10 @@
     .talent__containerPara>h4{
         font-size: 12px;
         text-align: center;
+    }
+
+    .help{
+        margin-top: -10px;
     }
 }
 
@@ -2025,6 +2030,9 @@
     .modal{
         width: 280px !important;
     }
+    .scroll{
+        bottom: 8%;
+    }
 
 }
 
@@ -2061,6 +2069,10 @@
     }
     .talentBox{
         width: 290px !important;
+    }
+    .help__container{
+        padding: 10px;
+        border-radius: 10px;
     }
 }
 

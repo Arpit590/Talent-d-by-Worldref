@@ -218,6 +218,11 @@
         color: black;
         font-weight: bolder;
     }
+
+    .jobs__lists>h1{
+        font-size: 30px;
+    }
+
     .jobs__contentContainer{
         background-color: transparent;
     }
